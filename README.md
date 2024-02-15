@@ -12,11 +12,11 @@
 
 <h2>💻📲 DESCRIÇÃO DO PROJETO</h2>
 
-><p align="justify"> Projeto em desenvolvimento que visa colocar no ar um website de uma igreja local. Os fiéis terão acesso rápido às principais doutrinas da igreja, horários de culto, redes sociais (Instagram, Facebook e Youtube), além da possibilidade de receberem uma mensagem personalizada em seus <i>emails</i> e também a possibilidade de entrar em contato de forma rápida com a igreja.</p>
+<p align="justify"> Projeto em desenvolvimento que visa colocar no ar um website de uma igreja local. Os fiéis terão acesso rápido às principais doutrinas da igreja, horários de culto, redes sociais (Instagram, Facebook e Youtube), além da possibilidade de receberem uma mensagem personalizada em seus <i>emails</i> e também a possibilidade de entrar em contato de forma rápida com a igreja.</p>
 
-><p>Futuramente, a ideia é ampliar o website tornando-o ainda mais informativo, montando uma base de dados e tornando-o, de fato, ainda mais funcional.</p>
+<p>Futuramente, a ideia é ampliar o website tornando-o ainda mais informativo, montando uma base de dados e tornando-o, de fato, ainda mais funcional.</p>
 
-><p>O sistema foi pensado de forma inteiramente responsiva e dinâmica possibilitando o uso em dispositivos móveis de variadas dimensões. Abaixo tem-se um demonstrativo em vídeo do funcionamento do website:</p>
+<p>O sistema foi pensado de forma inteiramente responsiva e dinâmica possibilitando o uso em dispositivos móveis de variadas dimensões. Abaixo tem-se um demonstrativo em vídeo do funcionamento do website:</p>
 
 https://github.com/filipefsf/ProjetoIEQLindeia/assets/107284442/658f3d1c-0106-4310-a03f-92a03ef44867
 
@@ -42,8 +42,13 @@ https://github.com/filipefsf/ProjetoIEQLindeia/assets/107284442/658f3d1c-0106-43
 
 <h2>🚩CONCLUSÃO</h2>
 
-> <p>Este foi um desafio adaptado de um projeto prático do curso de Desenvolvimento Full Stack da Danki Code. Pude aprofundar (e muito!) o aprendizado e prática nas principais tecnologias de um desenvolvimento Front-End.</p>
+<p>Este foi um desafio adaptado de um projeto prático do curso de Desenvolvimento Full Stack da Danki Code. Pude aprofundar (e muito!) o aprendizado e prática nas principais tecnologias de um desenvolvimento Front-End.</p>
+
 <p>Antes de encarar um desafio totalmente construído em algum framework (como React), presumi que precisava de uma base sólida e uma boa prática em tecnologias como CSS, HTML e JavaScript para então dominar ainda mais os frameworks existentes.</p>
+
+<p>Me deparei com diversos desafios ao longo do projeto e, embora ele ainda esteja em construção na parte de backend, tenho a sensação de dever cumprido.</p>
+
+<p>Pensando na melhor experiência de usuário, compartilhei o link com meu círculo de amizade e familiares próximos pensando em maneiras de melhorar ainda mais o projeto.</p>
 
 
 
