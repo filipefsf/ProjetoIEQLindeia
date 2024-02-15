@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+/* -----------Boot CSS----------- */
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.w25{
+    width:25%;
+    padding:60px 30px;
+    text-align: center;
+    border-right: 0.5px solid rgba(32, 31, 31, 0.358);
+    height: 460px;
+}
+
+.w25alternativo{
+    border-right: none;
+}
+
+.w33{
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+.w50{
+    border-right: 0.5px solid rgba(255, 255, 255, 0.782);
+    padding: 0 10px;
+    width: 50%;
+    height: 250px;
+}
+
+.box-contato{
+    border-right: 0.5px solid rgba(32, 31, 31, 0.358);
+    padding-top: 40px;
+}
+
+.w50alternativo{
+    border-right: none;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.clear{
+    clear:both;
+}
+
+/* ------------------------------------*/
+
+/* Estilização do site */
+
+@keyframes anim2 {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+
+header{
+    padding:20px;
+    width: 100%;
+    max-height: 90px;
+    background: linear-gradient(to right, red, yellow, blue, purple);
+    background-size: 600% 50%;
+    animation: anim2 6s infinite alternate;
+    position: fixed;
+    top:0;
+    z-index: 3;
+}
+
+.logomarca img{
+    position: relative;
+    bottom:13px;
+    width:100%;
+    max-width: 75px;
+}
+
+nav.menu ul{
+    position: relative;
+    top: 9px;
+    list-style-type: none;
+}
+
+nav.menu li{
+    font-size: 22px;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 30px;
+    display: inline-block;
+}
+
+nav.menu a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+nav.menu a:hover{
+    font-size: 28px;
+}
+
+.mobile{
+    display:none;
+}
+
+section.banner-principal{
+    width:100%;
+    height:600px;
+    background-image: url('../imagens/bannerprincipal3.jpeg');
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    margin-top: 90px;
+    text-align:center;
+}
+
+.overlay{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height:100%;
+    z-index: 1;
+    background-color: rgba(51,51,51,0.7);
+}
+
+section.banner-principal form{
+    width:100%;
+    max-width: 600px;
+    padding: 30px 0;
+    position: absolute;
+    z-index: 2;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+section.banner-principal form h2{
+    text-shadow: 2px 2px black;
+    color: white;
+    font-weight: bold;
+    font-size:36px;
+    text-align: center;
+}
+
+section.banner-principal form input[type=email]{
+    width:100%;
+    height:66px;
+    margin-top: 10px;
+    font-style: normal;
+    background: white;
+    color: #333;
+    font-size: 25px;
+    padding-left: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+section.banner-principal form input[type=submit]{
+    width:100%;
+    height:66px;
+    margin-top: 10px;
+    background: linear-gradient(to right, red, yellow, blue, purple);
+    background-size: 600% 50%;
+    animation: anim2 6s infinite alternate;
+    color: white;
+    font-size: 22px;
+    cursor:pointer;
+    border:0;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+section.banner-sobre{
+    padding: 30px 0;
+    text-align: center;
+    background-color: #f2f1f1bf;
+}
+
+section.banner-sobre h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.banner-sobre img{
+    min-width: 130px;
+}
+
+.banner-sobre p{
+    padding-top: 15px;
+    text-align: justify;
+}
+
+section.banner-cultos{
+    padding: 25px 0;
+    width:100%;
+    height:500px;
+    background-image: url('../imagens/bannercultos2.jpeg');
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    text-align:center;
+}
+
+section.banner-cultos h3{
+    color: #e7a809;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 25px 0;
+    text-shadow: 4px 4px black;
+}
+
+section.banner-cultos h2{
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding: 30px 0;
+    text-shadow: 4px 4px black;
+}
+
+section.banner-cultos p{
+    color:white;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 5px 0;
+    text-shadow: 4px 4px black;
+}
+
+section.banner-cultos p.p-alt{
+    color: #e7a809;
+    font-size: 15px;
+    text-transform:initial;
+    padding: 35px 0;
+    width: 60%;
+    position: absolute;
+    left:50%;
+    top:90%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+section.banner-contato{
+    padding: 30px 0;
+    text-align: center;
+    background-color: #f2f1f1bf;
+}
+
+section.banner-contato h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px gray;
+}
+
+.box-contato p{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 27px;
+    font-style: italic;
+    text-shadow: 1px 1px gray;
+}
+
+.simbolo-contato{
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.w33 a{
+    text-decoration: none;
+    color: black;
+}
+
+section.erro404{
+    min-height: 640px;
+    padding: 30px 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section.erro404 h2{
+    border-top: 5px solid black;
+    font-size: 30px;
+    padding: 10px 0;
+}
+section.erro404 p{
+    font-size:20px;
+}
+
+#map{
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    position: relative;
+    margin-top: 100px;
+    top:-10px;
+    bottom: 0;
+}
+
+.container-contato{
+    text-align: center;
+    min-height: 440px;
+    background-color: #f2f1f1bf;
+    width: 100%;
+    position: relative;
+    top:-9px;
+    padding: 7px 0;
+}
+
+.container-contato h2{
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.5px gray;
+}
+
+.container-contato input[type=text]{
+    width: 40%;
+    min-width: 300px;
+    margin: 7px 0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.container-contato input[type=tel]{
+    width: 40%;
+    min-width: 300px;
+    margin: 7px 0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.container-contato textarea{
+    width: 40%;
+    min-width: 300px;
+    margin: 7px 0;
+    height: 100px;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    resize: none;
+}
+
+.container-contato input[type=submit]{
+    width: 40%;
+    min-width: 300px;
+    background: linear-gradient(to right, red, yellow, blue, purple);
+    background-size: 600% 50%;
+    animation: anim2 6s infinite alternate;
+    height:40px;
+    color: white;
+    font-size: 18px;
+    cursor:pointer;
+    border:0;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #0f122b;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+    padding-top: 8px;
+    text-transform: uppercase;
+    position:static;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+
+@media screen and (max-width:1250px){
+    .w25{
+        width:50%;
+        padding:30px 30px;
+        height: auto;
+    }
+
+    .w25alternativo2{
+        border-right: none;
+    }
+
+    .box-contato p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:772px){
+    nav.menu{
+        display: none;
+    }
+
+    nav.mobile{
+        display:block;
+    }
+
+    .botao-menu-mobile{
+        position: relative;
+        bottom:6px;
+        font-size: 45px;
+        cursor: pointer;
+        color: white;
+        text-shadow: 2px 2px black;
+    }
+
+    nav.mobile ul{
+        top:90px;
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        display: none;
+        width:100%;
+        text-align: center;
+    }
+
+    nav.mobile li{
+        font-weight: bold;
+        text-transform: uppercase;
+        display: block;
+        background: white;
+        border-bottom: 1px solid #898787;
+        font-size: 20px;
+        padding: 8px 0;
+    }
+    nav.mobile a{
+        display: block;
+        color:#444;
+        text-decoration: none;
+    }
+
+    section.banner-principal form{
+        padding-top: 100px;
+    }
+
+    section.banner-principal form h2{
+        font-size: 30px;
+    }
+
+    section.banner-principal form input[type=email],section.banner-principal form input[type=submit]{
+        width:90%;
+    }
+
+    .w25{
+        width:100%;
+        padding:30px 10px;
+        height: auto;
+        border-right: none;
+        border-bottom: 0.5px solid rgba(32, 31, 31, 0.358);
+    }
+
+    .w25alternativo{
+        border-bottom: none;
+    }
+
+    .w50{
+        width:100%;
+        border-right: none;
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.782);
+    }
+    .w50alternativo{
+        border-bottom: none;
+    }
+    section.banner-cultos{
+        padding: 15px 0;
+        height:750px;
+    }
+    section.banner-cultos h3{
+        padding: 25px 0;
+        font-size: 25px;
+    }
+    section.banner-cultos p.p-alt{
+        font-size: 12px;
+        padding-top: 60px;
+        width: 80%;
+        position: absolute;
+        left:50%;
+        top:90%;
+        transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+    }
+
+    section.banner-contato{
+        padding: 10px 0;
+        text-align: center;
+        background-color: #f2f1f1bf;
+    }
+    
+    section.banner-contato h2{
+        font-size: 25px;
+        text-shadow: 2px 2px gray;
+    }
+    
+    .box-contato p{
+        padding: 10px 0;
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+        text-shadow: 1px 1px gray;
+    }
+    
+    .simbolo-contato{
+        font-size: 40px;
+        cursor: pointer;
+    }
+}
