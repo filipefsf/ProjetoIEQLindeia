@@ -13,6 +13,8 @@
 <h2>💻📲 DESCRIÇÃO DO PROJETO</h2>
 <p align="justify"> Projeto em desenvolvimento que visa colocar no ar um website de uma igreja local. Os fiéis terão acesso rápido às principais doutrinas da igreja, horários de culto, redes sociais (Instagram, Facebook e Youtube), além da possibilidade de receberem uma mensagem personalizada em seus <i>emails</i> e também a possibilidade de entrar em contato de forma rápida com a igreja.</p>
 
+<p>Futuramente, a ideia é ampliar o website tornando-o ainda mais informativo, montando uma base de dados e tornando-o, de fato, ainda mais funcional.</p>
+
 <p>O sistema foi pensado de forma inteiramente responsiva e dinâmica possibilitando o uso em dispositivos móveis de variadas dimensões. Abaixo tem-se um demonstrativo em vídeo do funcionamento do website:</p>
 
 https://github.com/filipefsf/ProjetoIEQLindeia/assets/107284442/658f3d1c-0106-4310-a03f-92a03ef44867
@@ -23,9 +25,19 @@ https://github.com/filipefsf/ProjetoIEQLindeia/assets/107284442/658f3d1c-0106-43
 - `CSS3`: utilizado para estilização de páginas principais, sub-principais e páginas de erro;
 - `JavaScript e jQuery`: utilizado para alterações de menu em dispositivos mobile, efeitos de scroll bar, animações de ícones e alterações de botões;
 - `PHP`: manipulação de URL's tornando-as amigáveis, prevenindo erros e encapsulando conteúdos HTML;
+- `Google API Maps`: utilizado para integração do sistema com o Google Maps;
 - `GitHub`: versionamento de código para a plataforma GitHub;
 - `Hospedagem`: utilização de servidor externo para hospedagem de site;
 - `Design Responsivo`: website funciona para diversos tipos de tela de forma que seu conteúdo é adaptado para suportar essa variabilidade.
+
+<h2>💡 FUNCIONALIDADES DO PROJETO</h2>
+
+- `Funcionalidade 1`: enviar um email de acordo com as doutrinas e crenças da igreja local para o usuário;
+- `Funcionalidade 2`: trazer uma rápida explanação sobre as principais doutrinas da igreja;
+- `Funcionalidade 3`: informar as pessoas os horários de culto;
+- `Funcionalidade 4`: redirecionar as pessoas de forma rápida às principais redes sociais da igreja;
+- `Funcionalidade 5`: mostrar os contatos e localização da igreja para o usuário;
+- `Funcionalidade 6`: trazer a possibilidade de a própria igreja entrar em contato com o usuário através de um formulário de contato.
 
 
 
