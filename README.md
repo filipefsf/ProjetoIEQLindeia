@@ -9,19 +9,9 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p><!--Badge Desenvolvimento-->
 
-# Índice 
+<h2>DESCRIÇÃO DO PROJETO</h2>
+<p align="justify"> Projeto em desenvolvimento que visa colocar no ar um website de uma igreja local. Os fiéis terão acesso rápido às principais doutrinas da igreja, horários de culto, redes sociais (Instagram, Facebook e Youtube), além da possibilidade de receberem uma mensagem personalizada em seus <i>emails</i> e também a possibilidade de entrar em contato de forma rápida com a igreja.</p>
 
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
-* [Badges](#badges)
-* [Índice](#índice)
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Status do Projeto](#status-do-Projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Licença](#licença)
-* [Conclusão](#conclusão)
+<p>O sistema foi pensado de forma inteiramente responsiva e dinâmica possibilitando o uso em dispositivos móveis de variadas dimensões. Abaixo tem-se um demonstrativo em vídeo do funcionamento do website.</p>
 
 
